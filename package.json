@@ -1,15 +1,21 @@
 {
-  "name": "ff-profile-search-api",
+  "name": "ff-like-api",
   "version": "1.0.0",
-  "description": "Free Fire player profile search REST API (read-only) built on top of ffapis",
-  "main": "server.js",
-  "type": "commonjs",
+  "description": "Free Fire Like API",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node --watch server.js"
+    "start": "node index.js",
+    "dev": "node index.js"
   },
+  "keywords": [
+    "freefire",
+    "like",
+    "api"
+  ],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2",
+    "express": "^4.21.0",
     "ffapis": "^3.0.1"
   }
 }
